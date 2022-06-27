@@ -33,7 +33,7 @@ let canvas = document.querySelector('canvas');
 			context.stroke();
 	
 			
-			if (Math.random() > 0.7) 
+			if (Math.random() > 0.5) 
 			{
 				context.beginPath();
 				context.rect(x + 9, y + 9, width -18, height -18)
